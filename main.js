@@ -1,5 +1,6 @@
 
-
+//variables and operators
+console.log("Variables & Operators")
 //exercise 1:
 console.log("Exercise 1")
 const maxCapacity = 14
@@ -74,3 +75,57 @@ a = b
 console.log(a == 0)
 console.log(b == 0)
 console.log(c == 2)
+
+//conditional statements
+console.log("Conditional Statements")
+
+let enoughMoneyInBank = false
+let hasJob = true
+if(enoughMoneyInBank){
+    console.log("buy a gift :)")
+} else {
+    if(hasJob){
+        console.log("go to work!")
+    } else {
+        console.log("go find a job :(")
+    }
+}
+//let userName = prompt("what is your username?")
+//console.log(userName)
+
+//exercise 1
+console.log("Exercise 1")
+let numChildren = Number(prompt("how many children do you have?"))
+const isCareful = false
+if(!isCareful){
+    numChildren++
+}
+console.log(numChildren)
+
+//exercise 2
+console.log("Exercise 2")
+let silverWareCount = Number(prompt("how many silver ware count do you have?"))
+if(silverWareCount%2 != 0){
+    console.log("There is something missing!")
+}
+
+//exercise 3
+console.log("Exercise 3")
+let performance = "stellar"
+let salary = 10000
+const goodBonus = 1000
+const stellarBonus = 3000
+if(performance == "stellar"){
+    salary += stellarBonus
+    console.log("wow! salary increased by stellar bonus")
+} else if(performance == "good"){
+    salary += goodBonus
+    console.log("salary increased by good bonus")
+    }
+console.log("salary is now :" + salary)
+
+//exercise 4
+console.log("exercise 4:")
+const isVIP = false
+let cash = 500
+
