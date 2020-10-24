@@ -128,4 +128,68 @@ console.log("salary is now :" + salary)
 console.log("exercise 4:")
 const isVIP = false
 let cash = 500
+if(isVIP || cash>300){
+    console.log("welcome to the club")
+} else {
+    console.log("Go away from here")
+}
+
+//Exercise 5
+console.log("exercise 5:")
+const a5 = 3 //a=3
+let b5 = 2 //b=2
+let c5 = 0 || 12 //c=12
+let d5 //d undefined
+
+b5 = c5 //b=true
+b5++ //b=13
+if(d5){ //falsey expression
+  b5 = a5
+}
+
+d5 = a5 + (b5 * c5) //d=3+13*12=159
+d5++ //d=160
+b5 += 2 //b=15
+
+//a=3
+//b=15
+//c=12
+//d=160
+
+console.log("a = " + a5)
+console.log("b = " + b5)
+console.log("c = " + c5)
+console.log("d = " + d5)
+
+//exercise 6
+console.log("Exercise 6:")
+const gender = null
+let profession = "business"
+if(!gender){
+    profession += "person"
+} else if(gender == "male"){
+        profession += "man"
+    } else if(gender == "female"){
+        profession += "woman"
+    }
+console.log(profession) 
+
+//exercise 7
+console.log("exercise 7:")
+let boughtTesla = true
+const yearOfTeslaPurchase = 2014
+let isUSCitizen = true
+let currentYear = 2018
+
+if(boughtTesla && isUSCitizen){
+    if(currentYear - yearOfTeslaPurchase >= 4){
+        console.log("Would you like an upgrade?")
+    } else {
+        console.log("Are you satisfied with your car?")
+    } 
+} else if(boughtTesla){
+    console.log("Would you like to move to the US?")
+} else {
+    console.log("are you interesting in buying a Tesla?")
+}
 
