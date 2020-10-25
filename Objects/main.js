@@ -70,3 +70,9 @@ let anotherList = [{name:"sozy", age:43},{name: "marry", age:16}]
 console.log(anotherList)
 myList.push(... anotherList)
 console.log(myList)
+
+//exercise 4
+console.log("Exercise 4:")
+let library = {books: [{title: "aa", author: "bb"},{title: "cc", author:"dd"}]}
+library.books.push({title:"ee", authir:"ff"})
+console.log(library)
