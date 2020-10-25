@@ -54,3 +54,12 @@ if(p1.age == p2.age){
         console.log("Ameen wanted to meet Sana, but couldn't")
     }
 }
+
+//exercise 2 
+console.log("Exercise 2:")
+
+let myList = [{name: "Sana", age: 26}, {name:"Ameen", age:30}]
+console.log(myList)
+myList[0].name = "Sanaa"
+myList.splice(1)
+console.log(myList)
