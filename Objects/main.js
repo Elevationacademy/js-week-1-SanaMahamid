@@ -1,6 +1,6 @@
 
 
-let car = {color: "white", numWheels: 4, isFancy: true}
+/*let car = {color: "white", numWheels: 4, isFancy: true}
 // "The brown car has four wheels. It is fancy" ( or "It is not fancy", depending on isFancy
 let sentence = "The " + car.color + " car has " + car.numWheels + " wheels. It is "
 if(car.isFancy){
@@ -40,4 +40,17 @@ let person = {
   p.firstName= "Chappy"
   
   console.log(p)
-  console.log(person)
+  console.log(person)*/
+
+  //exercise 1
+  console.log("Exercise 1:")
+
+let p1 = {name:"Sana", age:26, city:"Umm-Elfahem"}
+let p2 = {name:"Ameen", age:30, city:"Umm-Elfahem"}
+if(p1.age == p2.age){
+    if(p1.city == p2.city){
+        console.log("Ameen wanted to date Sana")
+    } else {
+        console.log("Ameen wanted to meet Sana, but couldn't")
+    }
+}
