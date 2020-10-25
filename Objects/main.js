@@ -63,3 +63,10 @@ console.log(myList)
 myList[0].name = "Sanaa"
 myList.splice(1)
 console.log(myList)
+
+//exercise 3
+console.log("Exercise 3:")
+let anotherList = [{name:"sozy", age:43},{name: "marry", age:16}]
+console.log(anotherList)
+myList.push(... anotherList)
+console.log(myList)
