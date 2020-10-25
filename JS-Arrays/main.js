@@ -20,3 +20,13 @@ const plants = ["Oak", "Lilly", "Belladonna", "Tulip", "Yew"]
 
 let lastIndex = plants.length - 1 // equal to (5 - 1) = 4
 console.log("The first plant is " + plants[0] + ", and the last one is " + plants[lastIndex])*/
+
+//arrays exercise
+const genes = ["ACADM", "GLMN", "RLF", "AZIN2", "CRYZ"]
+let newGenes = []
+newGenes.push(genes[0],genes[1])
+newGenes.splice(2,0,"CRYZ","AZIN2","RLF")
+let removed = newGenes.splice(3,1)
+newGenes.push(removed[0],removed[0])
+newGenes.splice(0,0,"FXT")
+console.log(newGenes)
