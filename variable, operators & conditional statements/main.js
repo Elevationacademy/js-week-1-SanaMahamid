@@ -2,7 +2,7 @@
 //variables and operators
 console.log("Variables & Operators")
 //exercise 1:
-console.log("Exercise 1")
+console.log("Exercise 1:")
 const maxCapacity = 14
 let surfTime = true
 let bestStudent
