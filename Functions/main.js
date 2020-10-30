@@ -102,4 +102,11 @@ function makeRegal(name){
 
 
 //Extention - Splice Challenge
-console.log
+console.log("Extention")
+/*const splice = function(Arr,){
+    // write your code here  
+}*/
+
+arr = [1,2,3]
+arr.splice(arr,0,0,-1,0,1); 
+console.log(arr);
